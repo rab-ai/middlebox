@@ -1,7 +1,7 @@
 import subprocess
 import json
 
-def run_ping_via_docker(container="6cd607b43e2e", target="insec", count=20):
+def run_ping_via_docker(container="fb0cea17a4df", target="insec", count=20):
     docker_cmd = f"docker exec {container} ping -c {count} {target}"
     process = subprocess.Popen(
         docker_cmd.split(),

@@ -1,0 +1,5 @@
+base_len,delay,message,avg_time,capacity,conf_interval,received_list,success_rate
+60,0.1,Hello,2.6269906044006346,15.226548558260362,±0.12,Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello,100%
+60,0.1,Goodbye!,3.696297597885132,17.31462316146247,±0.19,Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!,100%
+62,0.1,Hello,2.495746946334839,16.027265928840468,±0.12,Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello,100%
+62,0.1,Goodbye!,3.607296013832092,17.741820952478946,±0.20,Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!,100%
