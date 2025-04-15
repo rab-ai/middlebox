@@ -1,5 +1,9 @@
 base_len,delay,message,avg_time,capacity,conf_interval,received_list,success_rate
-60,0.1,Hello,2.6269906044006346,15.226548558260362,±0.12,Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello,100%
-60,0.1,Goodbye!,3.696297597885132,17.31462316146247,±0.19,Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!,100%
-62,0.1,Hello,2.495746946334839,16.027265928840468,±0.12,Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello,100%
-62,0.1,Goodbye!,3.607296013832092,17.741820952478946,±0.20,Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!;Goodbye!,100%
+50,0.05,Hello,1.509283447265625,26.502642742467074,±0.03,Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello,100%
+50,0.05,This is a longer test message.,6.585066723823547,36.44609995092755,±0.11,This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.,100%
+50,0.1,Hello,2.5831504821777345,15.484967010624118,±0.12,Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello,100%
+50,0.1,This is a longer test message.,12.46528182029724,19.253475650202112,±0.25,This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.,100%
+60,0.05,Hello,1.5031167984008789,26.61137181259288,±0.05,Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello,100%
+60,0.05,This is a longer test message.,6.4228883504867555,37.366366485541,±0.18,This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.,100%
+60,0.1,Hello,2.410548186302185,16.59373590924169,±0.08,Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello;Hello,100%
+60,0.1,This is a longer test message.,12.633789420127869,18.996675662302668,±0.30,This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.;This is a longer test message.,100%

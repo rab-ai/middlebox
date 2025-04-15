@@ -3,10 +3,10 @@ import time
 import statistics
 
 base_lengths = [50 , 60]           
-delays = [0.1]            
+delays = [0.05, 0.1]            
 messages = [                             
     "Hello",                           
-    "Goodbye!"
+    "This is a longer test message."
 ]
 repeats = 10                          
 

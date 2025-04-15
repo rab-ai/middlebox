@@ -1,1 +1,1 @@
-Hello
+This is a longer test message.
