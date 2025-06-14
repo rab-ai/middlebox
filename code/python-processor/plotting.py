@@ -31,7 +31,7 @@ if __name__ == '__main__':
         
         plt.xlim(0, 0.01)
         
-        plt.ylim(4, 5)
+        plt.ylim(3, 5)
         
         plt.scatter(delays, rtts, color="red")
         
