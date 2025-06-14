@@ -1,0 +1,65 @@
+PS C:\Users\rabai\Desktop\middle-box-v2\middlebox\code\insec> python .\train_detector.py    
+Accuracy: 0.9916666666666667
+              precision    recall  f1-score   support
+
+      covert       1.00      0.98      0.99        60
+      normal       0.98      1.00      0.99        60
+
+    accuracy                           0.99       120
+   macro avg       0.99      0.99      0.99       120
+weighted avg       0.99      0.99      0.99       120
+
+Model kaydedildi: detector_model_entropy.pkl
+PS C:\Users\rabai\Desktop\middle-box-v2\middlebox\code\insec> python .\evaluate_detector.py
+=== REAL PACKET DETECTION PERFORMANCE ===
+
+Loading data...
+Total number of packets: 400    
+After outlier removal: 400      
+Final dataset size: 400
+Class distribution:
+label
+1    200
+0    200
+Name: count, dtype: int64       
+Class proportions:
+label
+1    0.5
+0    0.5
+Name: proportion, dtype: float64
+
+Loading model...
+✓ Model loaded successfully
+
+=== OVERALL PERFORMANCE ===
+Confusion Matrix:
+              Predicted
+           0      1
+Actual 0   200     0
+       1     2   198
+
+TP=198  TN=200  FP=0  FN=2
+Accuracy=0.9950  Precision=1.0000  Recall=0.9900  F1=0.9950
+
+Detailed classification report:
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       200
+           1       1.00      0.99      0.99       200
+
+    accuracy                           0.99       400
+   macro avg       1.00      0.99      0.99       400
+weighted avg       1.00      0.99      0.99       400
+
+
+=== BOOTSTRAP ANALYSIS (95% Confidence Interval) ===
+Metric          Average  95% CI
+accuracy        0.9949   [0.9875 – 1.0000]
+precision       1.0000   [1.0000 – 1.0000]
+recall          0.9898   [0.9730 – 1.0000]
+f1              0.9948   [0.9863 – 1.0000]
+tp              197.9920   [179.0000 – 216.0000]
+tn              199.9620   [181.0000 – 219.0250]
+fp              0.0000   [0.0000 – 0.0000]
+fn              2.0460   [0.0000 – 5.0000]
+PS C:\Users\rabai\Desktop\middle-box-v2\middlebox\code\insec> 

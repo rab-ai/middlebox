@@ -23,6 +23,9 @@ def main():
 
         print(f"[{i+1}/{count}] Sending: '{message}' (delay={delay}s)")
 
+        with open("sender_log.csv", "a") as f:
+            f.write(f"{message}\n")
+
         send_covert_message(
             message=message,
             base_len=base_len,

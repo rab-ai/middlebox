@@ -1,5 +1,5 @@
 """
-PS C:\Users\rabai\Desktop\middle-box-v2\middlebox\code\insec> docker compose exec insec bash
+PS docker compose exec insec bash
 root@1307206b6432:/code/insec# python3 normal_receiver.py  
 with 
 root@b6f513bfd544:/code/sec# python3 /code/sec/simple_udp_client_random.py --min-len 40 
